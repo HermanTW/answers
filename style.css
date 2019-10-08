@@ -5,14 +5,16 @@
 .ui.borderless.top.menu {
   background-color: #136AD5;
   box-shadow: none;
+  alignment: center;
+  margin: none;
   border: none;
-  padding-bottome: 10px;
 }
 
 .ui.borderless.middle.menu {
   background-color: #4288DD;
   box-shadow: none;
   border: none;
+  margin: none;
   padding: none;
 }
 
@@ -20,4 +22,17 @@
   box-shadow: lightgray;
   border: thin;
   padding: none;
+}
+
+input[type="text"] {
+  width: 700px;
+}
+
+.ui.list {
+  box-shadow: lightgray;
+  border-color: black;
+}
+
+ui.dropdown.item {
+  padding-right: 100px;
 }
