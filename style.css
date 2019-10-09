@@ -16,25 +16,36 @@
   box-shadow: none;
   border: none;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 0;
 }
 
 .ui.column.grid {
-  box-shadow: lightgray;
+  box-shadow: gray;
   border: thin;
   padding: none;
+  background-color: white;
 }
 
 input[type="text"] {
-  width: 700px;
-}
-
-.ui.list {
-  box-shadow: lightgray;
-  border-color: black;
+  width: 900px;
 }
 
 ui.dropdown.item {
   padding-right: 100px;
+}
+
+.ui.list {
+  box-shadow: 1px 2px darkslategray;
+  border: 1px;
+  background-color: white;
+}
+
+.ui.social.button {
+  width: 160px;
+  margin-bottom: 10px;
+}
+
+.custom-background {
+
 }
