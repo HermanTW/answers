@@ -23,7 +23,7 @@
 .ui.column.grid {
   box-shadow: gray;
   border: thin;
-  padding: none;
+  padding: 0;
   background-color: white;
 }
 
@@ -31,7 +31,7 @@ input[type="text"] {
   width: 900px;
 }
 
-ui.dropdown.item {
+.ui.dropdown.item {
   padding-right: 100px;
 }
 
